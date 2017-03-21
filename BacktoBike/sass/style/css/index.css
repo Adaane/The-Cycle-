@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: inline-block;
+}
+
+.clearfix:after {
+    clear: both;
+}
+body {
+  background: url(../img-layout/background.png);
+  font-family: 'ubuntu','arial','sans-serif';
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  max-width: 1440px;
+
+}
+a {
+  text-decoration: none;
+
+}
+
+/*----------- LOGO ----------------*/
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 20px;
+}
+header div.logo {
+  float: left;
+}
+
+
+
+/*-----------PRE-ORDER-----------*/
+div.pre-order {
+  float: right;
+  width: 200px;
+  margin: 0 auto;
+  padding-top:5%;
+}
+h3 {
+  color: #fff;
+  width: 150px;
+  margin: 0 auto;
+  font-size: 20px;
+ 
+}
+h3 a {
+  color: #fff;
+}
+
+
+
+
+/*------------bike-------*/
+
+
+figure.bike-bckg {
+  position: relative;
+  max-width: 100%;
+  
+
+}
+
+img.bckg {
+  position: absolute;
+  left: -500px;
+  top: 10px;
+
+  
+
+
+ 
+}
+
+
+/*----------- slogan --------------*/
+div.slogan {
+  
+  width: 100%;
+  
+}
+div.slogan figure.accroche {
+  width: 40%;
+  float: right;
+  text-align: center;
+
+
+
+}
+h4 {
+  color: #fff;
+  margin-top: 25%;
+  font-size: 90px;
+
+}
+button {
+  width: 30%;
+  height: 60px;
+  background-color: #26f8ff;
+  border-radius: 60px;
+  font-size: 20px;
+  font-family: 'ubuntu';
+  font-weight: bold;
+  margin-top: 30px;
+
+
+}
+button a {
+  color: #000;
+}
+
