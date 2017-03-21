@@ -1,0 +1,213 @@
+<html xmlns:ganttproject="http://ganttproject.sf.net/">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Alexandre THOMAS">
+<title>GanttProject - diagramm GANTT</title>
+<style>
+	    A:link {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black;
+	    }
+	    A:visited {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black; BACKGROUND: none
+	    }
+	    A:hover {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: white ; BACKGROUND: #6d9ec6;
+	    }
+	    .attachment a:link {
+	      font-weight: normal;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:hover {
+	      font-weight: normal;
+	      text-decoration: underline;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:visited {
+	      font-weight: normal;
+	      font-size: 12px;
+	      background: white;
+	      color: gray;
+	    }
+	    TD {
+		FONT-SIZE: 12px; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    UL {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    LI {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    H1 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #6d9ec6;
+	    }
+	    H2 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #000000;
+	    }
+	    H3 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #6d9ec6;
+	    }
+	    H4 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000;
+	    }
+	    H5 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #6d9ec6;
+	    }
+	    H6 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000
+	    }
+
+	    </style>
+</head>
+<body bgcolor="white">
+<center>
+<br>
+<br>
+<center>
+<table width="100%" border="0">
+<tr>
+<td bgcolor="#dddddd"><font size="+2" color="#0000000"><b>3D/Web Project Bike </b></font></td>
+</tr>
+</table>
+</center>
+<center>
+<table width="100%" border="0">
+<tr>
+<td bgcolor="#6d9ec6">
+<center>
+<a href="diagramm GANTT.html"></a>  |
+    <a href="diagramm GANTT-chart.html">Diagramme de Gantt</a> |
+    <a href="diagramm GANTT-tasks.html">T&acirc;ches</a> |
+    <a href="diagramm GANTT-resources.html">Ressources</a>
+</center>
+</td>
+</tr>
+</table>
+</center>
+<br>
+<table width="800" border="0">
+<tr>
+<td bgcolor="#dddddd">
+<h5>Nom</h5>
+</td><td bgcolor="#dddddd">
+<h5>D&eacute;but</h5>
+</td><td bgcolor="#dddddd">
+<h5>Fin</h5>
+</td><td bgcolor="#dddddd">
+<h5>Jalon</h5>
+</td><td bgcolor="#dddddd">
+<h5>%</h5>
+</td><td bgcolor="#dddddd">
+<h5>Ressources</h5>
+</td><td bgcolor="#dddddd">
+<h5>Notes</h5>
+</td>
+</tr>
+<tr>
+<td valign="top" style="text-decoration: underline;"><b>Design</b></td><td valign="top">21/03/17</td><td valign="top">22/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top">Olivier</td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>Benchmarks</b></td><td valign="top">21/03/17</td><td valign="top">21/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 2em;"><b>Fonctionnelle</b></td><td valign="top">21/03/17</td><td valign="top">21/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 2em;"><b>Graphique</b></td><td valign="top">21/03/17</td><td valign="top">21/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>Moodboard</b></td><td valign="top">21/03/17</td><td valign="top">21/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>Wireframe</b></td><td valign="top">21/03/17</td><td valign="top">21/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>Maquette</b></td><td valign="top">21/03/17</td><td valign="top">22/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="text-decoration: underline;"><b>Front end</b></td><td valign="top">21/03/17</td><td valign="top">22/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>Leading Page</b></td><td valign="top">22/03/17</td><td valign="top">22/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top">Alexandre</td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>Forms Page - Pre Order</b></td><td valign="top">22/03/17</td><td valign="top">22/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top">Wesley</td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>Unity</b></td><td valign="top">22/03/17</td><td valign="top">22/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top">Adaane</td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>JavaScript</b></td><td valign="top">21/03/17</td><td valign="top">22/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top">Adaane</td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="text-decoration: underline;"><b>Back end</b></td><td valign="top">21/03/17</td><td valign="top">23/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>Forms</b></td><td valign="top">21/03/17</td><td valign="top">21/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top">Wesley</td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 1em;"><b>BDD</b></td><td valign="top">21/03/17</td><td valign="top">23/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top">Abraham</td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 2em;"><b>bike's stuff</b></td><td valign="top">22/03/17</td><td valign="top">23/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 2em;"><b>pre-order list client</b></td><td valign="top">21/03/17</td><td valign="top">23/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-left: 2em;"><b>pre order list client stuff</b></td><td valign="top">21/03/17</td><td valign="top">23/03/17</td><td valign="top" align="center">&nbsp;</td><td valign="top">0</td><td valign="top"></td><td valign="top">
+<pre width="40"></pre>
+</td>
+</tr>
+</table>
+</center>
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#6d9ec6" width="50%"><font color="#FFFFFF"><b>Ganttproject (2.8.3 Pilsen (build 2088))</b></font></td><td bgcolor="#6d9ec6" width="50%" align="right"><b><a href="http://ganttproject.biz">ganttproject.biz</a></b>
+<br>
+<b>21/03/17 - 01:46:16</b></td>
+</tr>
+</table>
+</body>
+</html>
