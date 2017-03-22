@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*-----------DEBUT---------------
+------------------------
+*/
+body {
+	font-family: 'ubuntu','helvetica','arial','sans-serif';
+    width: 100%;
+
+}
+main {
+
+	
+	
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*-----------BACKGROUND-----------
+------------*/
+div.bike-wireframe {
+	width: 100%;
+	margin: 0 auto;
+
+	
+	
+}
+figure.background {
+	width: 100%;
+	position: relative;
+	
+
+}
+img.back {
+	width: 100%;
+	height: 100vh;
+}
+div.figcaption {
+	position: absolute;
+	width: 100%;
+
+}
+figcaption {
+	width: 50%;
+	position: absolute;
+	color: #fff;
+
+}
+
+figcaption.spec-wireframe {
+	text-align: center;
+	width: 100%;
+	margin-top: 2%;
+
+
+}
+figcaption.spec-wireframe h4 {
+	font-size: 20px;
+	font-weight: 800;
+
+}
+figcaption.spec-wireframe h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+figcaption.otherwise-wireframe {
+	width: 20%;
+	left: 78%;
+	margin-top: 30%;
+}
+figcaption.otherwise-wireframe h4 {
+	font-size: 20px;
+	font-weight: 800;
+
+}
+figcaption.otherwise-wireframe p {
+	font-size: 15px;
+	font-weight: lighter;
+}
+	
+
+figcaption.city-wireframe {
+	width: 20%;
+	left: 10%;
+	margin-top: 10%;
+}
+figcaption.city-wireframe h4 {
+	font-size: 20px;
+	font-weight: 800;
+
+}
+figcaption.city-wireframe p {
+	font-size: 15px;
+	font-weight: lighter;
+}
+

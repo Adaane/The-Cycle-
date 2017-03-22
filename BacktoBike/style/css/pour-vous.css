@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*-----------DEBUT---------------
+------------------------
+*/
+body {
+	font-family: 'ubuntu','helvetica','arial','sans-serif';
+    width: 100%;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*-------------BACKGROUND----------------------
+-------------------*/
+img.gow {
+	width: 100%;
+	height: 100vh;
+}
+
+div.pour-vous-girl {
+	width: 100%;
+}
+figure.pour-vous {
+	position: relative;
+}
+div.girl {
+	position: absolute;
+	left: 10%;
+	top: 5%;
+}
+figcaption.ressemble {
+	width: 50%;
+	left: 10%;
+}
+figcaption.ressemble h3 {
+	font-size: 30px;
+	
+}
+figcaption.ressemble h1 {
+	margin-top: 1%;
+	font-size: 40px;
+
+}
+figcaption.ressemble p.un {
+	width: 60%;
+	margin-top: %;
+	font-size: 15px;
+	font-weight: 400;
+}
+figcaption.ressemble p.deux {
+	width: 60%;
+	margin-top: 1%;
+	font-size: 15px;
+	font-weight: 400;
+
+}
+
+

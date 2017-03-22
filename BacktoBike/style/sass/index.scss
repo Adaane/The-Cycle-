@@ -1,0 +1,44 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'brother 1816';
+}
+
+@font-face 
+{
+font-family: 'brother 1816';
+src: url('fonts/Brother.1816/TipoType - Brother-1816-Medium.eot?') format('eot'),
+     url('fonts/Brother.1816/TipoType - Brother-1816-Medium.otf') format('truetype'),
+     url('fonts/Brother.1816/TipoType - Brother-1816-Medium.woff') format('woff'),
+     url('fonts/Brother.1816/TipoType - Brother-1816-Medium.svg#benton') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+*,
+*:before,
+*:after
+{
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix
+{ 
+	overflow: auto;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/*-----------HEADER------------*/
