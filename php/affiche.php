@@ -1,4 +1,4 @@
 <?php
 require_once "connect.php";
 
-echo 'salope';
+echo 'l'indentifiant a bien été créé';
