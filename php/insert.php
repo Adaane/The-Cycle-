@@ -6,7 +6,7 @@ if(!isset($_POST['first-name'])
     || !isset($_POST['email']))
 {
     //header('Location: inscription.php');
-    echo "fuck";
+    echo "recommencer";
 }
 else
 {
@@ -17,7 +17,7 @@ else
     if (!preg_match("#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#", $_POST['email']))
     {
         //header('Location: inscription.php');
-        echo 'fuck bitchies';
+        echo 'recommancer';
     }
     else
     {
@@ -35,7 +35,7 @@ else
 
         if($row['email'] == $_POST['email'])
         {
-            echo 'ca existe deja batard';
+            echo 'l'identifiant existe déja';
         }
         else
         {
