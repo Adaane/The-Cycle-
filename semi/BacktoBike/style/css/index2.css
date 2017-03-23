@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+/*-------------RESET--------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-----------DEBUT---------------
+------------------------
+*/
+body {
+	font-family: 'ubuntu','helvetica','arial','sans-serif';
+  
+}
+main {
+	width: 100%;
+	
+	
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/*---------------HEADER-BIKE----------------
+----------------------------------------------------*/
+
+/*-------------------------NAV----------------------
+-------------------*/
+div.header-bike {
+	width: 100%;
+}
+
+div.nav-bike header {
+	width: 50%;
+
+}
+div.nav-bike {
+	float: right;
+    width: 50%;
+}
+div.nav-bike nav {
+	width: 100%;
+	text-align: center;
+
+}
+div.nav-bike nav li {
+	display: inline-block;
+	padding: 30px 30px 30px 30px;
+
+}
+div.cycle-logo img {
+	position: absolute;
+	z-index: 4;
+	width: 5%;
+	height: 5%;
+	top: 2%;
+	left: 2%;
+}
+
+
+/*--------------DESSOUS-NAV-----------------------*/
+section.bike-custom {
+	float: left;
+	width: 50%;
+	position: relative;
+
+	
+}
+section.bike-custom figure.maintenant {
+	width: 100%;	
+	height: 100vh;
+}
+
+
+figcaption.crée {
+	position: absolute;
+	top: 50%;
+	left: 37%;
+	z-index: 1000;
+
+}
+img.custom {
+	height: 100vh;
+	opacity: 0.5;
+	width: 100%;
+
+}
+figcaption.crée h1.crée-maintenant {
+	font-size: 25px;
+	font-weight: 500;
+	width: 120%;
+	
+}
+
+
+figcaption.crée h1.crée-maintenant:hover {
+	opacity: 0.8;
+}
+
+
+
+/*-----------right-IMG---------------
+-------------------*/
+section.bike-slogan {
+	width: 50%;
+	float: right;
+	height: 560px;
+
+}
+img.pneu-2 {
+	float: right;
+}
+img.pneu-1 {
+	float: left;
+	margin-top: 15%;
+	margin-left: 8%;
+}
+figcaption.accroche-slogan {
+	width: 70%;
+	margin-left: 10%;
+	margin-top: 17%;
+}
+h2.h2-slogan {
+	font-size: 23px;
+	font-weight: 900;
+
+}
+
+h1.h1-slogan {
+	font-size: 40px;
+	font-weight: bold;
+	width: 100%;
+	line-height: 40px;
+	margin-top: 4%;
+}
+p.p-slogan {
+	font-family: 15px;
+	font-weight: lighter;
+	margin-top: 4%;
+	width: 100%;
+	line-height: 140%;
+
+}
+button {
+	width: 30%;
+	height: 50px;
+	background-color: #18273c;
+	float: right;
+	border-radius: 30px;
+	border: none;
+	margin-top: 10%;
+	
+}
+button a {
+	color: #fff;
+}
+li.active {
+	font-weight: bold;
+}
+
+
+/*----------------------SPEC------------------
+-------------------*/
+
+div.bike-wireframe {
+	width: 100%;
+	
+}
+figure.background {
+	position: relative;
+	width: 100%;
+	float: left;
+	
+}
+div.explain {
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	margin-top: 5%;
+}
+figcaption.specifite-wireframe {
+	text-align: center;
+	right: : 50%;
+}
+figcaption.specifite-wireframe h4 {
+	font-size: 25px;
+}
+figcaption.specifite-wireframe h3{
+	font-size: 35px;
+}
+figcaption.otherwise-wireframe  {
+	width: 20%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+figcaption.otherwise-wireframe h4 {
+	font-size: 30px;
+	font-weight: bold;
+}
+figcaption.city-wireframe h4 {
+	font-size: 30px;
+	font-weight: bold;
+}
+figcaption.otherwise-wireframe p {
+	font-size: 20px;
+	font-weight: lighter;
+}
+figcaption.city-wireframe p{
+	font-size: 20px;
+	font-weight: lighter;
+}
+figcaption.city-wireframe  {
+	width: 20%;
+	float: right;
+	margin-top: 30%;
+
+	
+}
+
+
+
+	
+
+
+
