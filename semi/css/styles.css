@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif; }
+
+div.formulaire {
+  width: 60%;
+  height: 90vh;
+  margin: 0 auto; }
+  div.formulaire div.form-left {
+    width: 60%;
+    height: 90vh;
+    background: #18273c;
+    color: #fff;
+    position: relative;
+    float: left; }
+    div.formulaire div.form-left h2 {
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0 0 4% 5%;
+      color: #fafafa; }
+    div.formulaire div.form-left p {
+      font-size: 15px;
+      font-weight: 300;
+      margin: 2% 0 8% 5%;
+      color: #fafafa; }
+    div.formulaire div.form-left input#first-name, div.formulaire div.form-left input#name, div.formulaire div.form-left input#email {
+      width: 70%;
+      height: 8vh;
+      border-radius: 2px;
+      margin: 4% 0 4% 5%;
+      outline: none;
+      border: none;
+      padding-left: 20px;
+      font-size: 16px; }
+    div.formulaire div.form-left input#accept {
+      width: 25px;
+      height: 17px;
+      border: none;
+      outline: none;
+      margin: 10% 0.5% 0 8%; }
+    div.formulaire div.form-left label {
+      font-size: 16px;
+      color: #fafafa; }
+    div.formulaire div.form-left input#submit {
+      width: 55%;
+      height: 7.5vh;
+      margin: 6% 20%;
+      padding-top: 2px;
+      border: none;
+      border-radius: 30px;
+      outline: none;
+      background: #26f8ff;
+      color: #18273c;
+      font-size: 19px;
+      position: absolute;
+      bottom: 0%; }
+  div.formulaire div.form-right {
+    width: 40%;
+    float: right;
+    background-color: #fafafa; }
+    div.formulaire div.form-right figure {
+      width: 100%; }
+      div.formulaire div.form-right figure img {
+        width: 100%; }
+    div.formulaire div.form-right h2 {
+      margin: 2% 20% 5%;
+      color: #18273c; }
+    div.formulaire div.form-right h3 {
+      margin: 0 0 7% 5%;
+      font-size: 17px;
+      color: #626262; }
+    div.formulaire div.form-right p {
+      margin: 0 0 5% 5%;
+      padding-bottom: 10px;
+      color: #9b9b9b;
+      border-bottom: 1px solid #e3e3e3; }
+
+/*# sourceMappingURL=styles.css.map */
