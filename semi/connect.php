@@ -1,12 +1,22 @@
 <?php
+// declaratiion des variable du serveur,user,password et la database pourplus de propreter et pour les moddifer facilement
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "bike";
 
-try
-{
-    $pdo = new PDO('mysql:host=localhost;dbname=test', 'root','root',
-        array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+
+try {
+    $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+
+
+
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
-catch (Exception $e)
+catch(PDOException $e)
 {
-    die($e->getMessage());
+
+    echo "Connection raté: " . $e->getMessage();
 }
 
+$pdo->exec('set names utf8');
